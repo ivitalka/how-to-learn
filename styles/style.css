@@ -60,6 +60,12 @@
   text-decoration: none;
 }
 
+.header__link:hover{
+  color: white;
+  background-color: #000;
+  border-radius: 10px;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -219,6 +225,12 @@
   text-decoration: none;
 }
 
+.feinman__link:hover {
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   position: relative;
@@ -342,7 +354,12 @@ margin-bottom: 18px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
 
+.footer__column-link:hover {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
 }
 
 .footer__column-list:last-child {
